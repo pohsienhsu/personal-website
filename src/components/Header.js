@@ -5,19 +5,24 @@ const Header = () => {
   return (
     <div className="header-wraper">
       <div className="main-info">
+        <h1>Portfolio</h1>
         <ReactTypingEffect
-          text={["Web Developments", "Software Engineering", "Data Analytics"]}
-          cursorRenderer={cursor => <h1>{cursor}</h1>}
+          className="typed-text"
+          text={["Web Developments", "Full-Stack Projects", "Software Engineering", "Data Analytics"]}
+          cursorRenderer={(cursor) => {
+            return(<h1 className="typed-cursor" >{cursor}</h1>);
+            }
+          }
           displayTextRenderer={(text, i) => {
             return (
-              <h1 style={{color: '#fff'}}>
+              <h1 className="typed-text" style={{ color: '#fff'}}>
                 {text}
               </h1>
             );
           }}
-          speed={400}
-          eraseSpeed={200}
-          eraseDelay={1000}
+          speed={150}
+          eraseSpeed={150}
+          eraseDelay={1500}
           typingDelay={500}   
         />
       </div>
