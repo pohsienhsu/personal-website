@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
       <div className="container">
         <a className="navbar-brand" href="#"><FaAddressCard className="portfolio-logo" size={80}/><img className="portfolio-signature" src={signature} alt="signature..." /></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

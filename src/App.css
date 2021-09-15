@@ -7,10 +7,11 @@
 }
 
 body {
-  font-family: "Roboto Condensed"
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /************************* NavBar *************************/
+
 .portfolio-logo {
   width: 3.125rem;
 }
@@ -50,4 +51,27 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/************************* Header *************************/
+.header-wraper {
+  position: relative;
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.02)),url(images/laptop.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
