@@ -14,7 +14,7 @@ const Project = () => {
       <h1 className="py-5">My Projects</h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-6"> 
+            <div className="col-lg-3 col-md-6 col-sm-6"> 
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faLaptopMedical} size="2x"/>
@@ -30,7 +30,7 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x"/>
@@ -46,7 +46,7 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faBiohazard} size="2x"/>
@@ -62,7 +62,7 @@ const Project = () => {
               </div>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faCalculator} size="2x"/>

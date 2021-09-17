@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Project from './components/Project';
+import Experience from './components/Experience';
 
 const particle_options = {
   particles: {
@@ -68,6 +69,7 @@ function App() {
       <Header />
       <AboutMe />
       <Project />
+      <Experience />
     </>
   );
 }
