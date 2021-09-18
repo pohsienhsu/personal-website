@@ -6,9 +6,11 @@
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-orange: #f9ab00;
+  --primary-dark-orange: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-blue: #0e52c7;
 }
 
 body {
@@ -301,7 +303,7 @@ nav ul li {
   }
 }
 
-/************************* NavBar *************************/
+/************************* Experience *************************/
 .experience {
   padding: 0.7rem;
 }
@@ -315,6 +317,28 @@ nav ul li {
 .experience h1 {
   text-transform: uppercase;
   color: var(--primary-orange);
+}
+
+.logo-wrap {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+}
+
+.logo-img {
+  width: 2rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  text-transform: uppercase;
+  display:flex;
+  align-items: center;
+  height: 100%;
 }
 
 .experience-wrapper::before {
@@ -364,8 +388,16 @@ nav ul li {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: var(--primary-blue);
   font-weight: 900;;
+}
+
+.timeline-content .position {
+  color: var(--primary-dark-orange);
+}
+
+.timeline-content ul {
+  border-left: 0.125rem solid var(--primary-orange);
 }
 
 /*-------------- Media --------------*/
