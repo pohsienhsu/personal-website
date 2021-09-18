@@ -4,8 +4,9 @@ import Particles from 'react-tsparticles';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
-import Project from './components/Project';
+import Education from './components/Education';
 import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
 
 const particle_options = {
   particles: {
@@ -68,8 +69,9 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Project />
+      <Education />
       <Experience />
+      <Portfolio />
     </>
   );
 }

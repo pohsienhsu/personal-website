@@ -8,10 +8,10 @@ import pumpedup from '../images/pumpedup.jpeg';
 import covid from '../images/covid.jpeg';
 import fr from '../images/fr.jpeg';
 
-const Project = () => {
+const Education = () => {
   return (
-    <div className="project">
-      <h1 className="py-5">My Projects</h1>
+    <div className="education">
+      <h1 className="py-5">Education</h1>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6"> 
@@ -20,8 +20,8 @@ const Project = () => {
                   <FontAwesomeIcon className="icon" icon={faLaptopMedical} size="2x"/>
                 </div>
                 <h3>PPE Management</h3>
-                <div className="project-img-wrap mb-5" >
-                  <img className="project-img" src={ppe} alt="project 1..." />
+                <div className="education-img-wrap mb-5" >
+                  <img className="education-img" src={ppe} alt="Georgia Tech CSE..." />
                 </div>
                 <p>Management system of personal protective equipments for health care workers with React and AWS</p>
                 <a className="learn-more" href="https://github.com/matthew8541/PPE">
@@ -36,8 +36,8 @@ const Project = () => {
                   <FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x"/>
                 </div>
                 <h3>PumpedUP</h3>
-                <div className="project-img-wrap mb-5" >
-                  <img className="project-img" src={pumpedup} alt="project 2..." />
+                <div className="education-img-wrap mb-5" >
+                  <img className="education-img" src={pumpedup} alt="Springboard..." />
                 </div>
                 <p>Mobile application designed for partner matching through pairing algorithms and chatting functions with React Native</p>
                 <a className="learn-more" href="https://github.com/pohsienhsu/Workout-Partner-App-PumpedUP">
@@ -52,8 +52,8 @@ const Project = () => {
                   <FontAwesomeIcon className="icon" icon={faBiohazard} size="2x"/>
                 </div>
                 <h3>COVID-19 Simulation</h3>
-                <div className="project-img-wrap mb-5" >
-                  <img className="project-img" src={covid} alt="project 3..." />
+                <div className="education-img-wrap mb-5" >
+                  <img className="education-img" src={covid} alt="Georgia Tech MSE..." />
                 </div>
                 <p>Agent-based SEIRS model to simulate COVID-19 pandemic under various conditions.</p>
                 <a className="learn-more" href="https://github.com/pohsienhsu/6730-Covid-Simulation">
@@ -68,8 +68,8 @@ const Project = () => {
                   <FontAwesomeIcon className="icon" icon={faCalculator} size="2x"/>
                 </div>
                 <h3>FR Prediction</h3>
-                <div className="project-img-wrap mb-5" >
-                  <img className="project-img" src={fr} alt="project 4..." />
+                <div className="education-img-wrap mb-5" >
+                  <img className="education-img" src={fr} alt="NCKU CHE..." />
                 </div>
                 <p>Classification model predicting for FR testing with MCC dataset extracted features.</p>
                 <a className="learn-more" href="https://github.com/pohsienhsu/ML-MCC-FR-analysis">
@@ -83,4 +83,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Education;

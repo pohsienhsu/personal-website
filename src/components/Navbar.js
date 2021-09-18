@@ -22,7 +22,7 @@ const Navbar = () => {
                 <a className="nav-link" href="#">about me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">project</a>
+                <a className="nav-link" href="#">education</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">work experience</a>
