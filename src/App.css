@@ -250,6 +250,7 @@ nav ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: .3s ease-in-out;
 }
 
 .project h3 {
@@ -263,6 +264,7 @@ nav ul li {
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   position: relative;
+  transition: .3s ease-in-out;
 }
 
 .project .learn-more {
@@ -278,7 +280,6 @@ nav ul li {
 .project .box:hover {
   background: var(--primary-orange);
   border-bottom: 0.3125rem solid var(--primary-dark);
-  transition: .2s ease-in-out;
 }
 
 .project .box:hover .icon {
