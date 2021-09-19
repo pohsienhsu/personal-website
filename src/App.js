@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
 
 const particle_options = {
   particles: {
@@ -72,6 +73,7 @@ function App() {
       <Education />
       <Experience />
       <Portfolio />
+      <Contacts />
     </>
   );
 }
