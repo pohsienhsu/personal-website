@@ -6,7 +6,7 @@ import springboard from '../images/springboard.png';
 
 const Education = () => {
   return (
-    <div className="education">
+    <div id="education" className="education">
       <h1 className="py-5">Education</h1>
         <div className="container">
           <div className="row">

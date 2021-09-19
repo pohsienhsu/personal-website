@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 const particle_options = {
   particles: {
@@ -74,6 +75,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Contacts />
+      <Footer />
     </>
   );
 }
