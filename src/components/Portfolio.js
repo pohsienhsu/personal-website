@@ -6,7 +6,8 @@ import covid from '../images/covid.jpeg';
 import fr from '../images/fr.jpeg';
 // FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
+import { faSearchPlus, faLaptopMedical, faMobileAlt, faBiohazard, faCalculator} from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 // React PopupBox
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import "react-popupbox/dist/react-popupbox.css";

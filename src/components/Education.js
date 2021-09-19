@@ -1,12 +1,8 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLaptopMedical, faMobileAlt, faBiohazard, faCalculator} from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 // Project Images
-import ppe from '../images/ppe.jpeg';
-import pumpedup from '../images/pumpedup.jpeg';
-import covid from '../images/covid.jpeg';
-import fr from '../images/fr.jpeg';
+import gatech from '../images/gatech.png';
+import ncku from '../images/ncku.png';
+import springboard from '../images/springboard.png';
 
 const Education = () => {
   return (
@@ -16,65 +12,47 @@ const Education = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6"> 
               <div className="box">
-                <div className="circle">
-                  <FontAwesomeIcon className="icon" icon={faLaptopMedical} size="2x"/>
-                </div>
-                <h3>PPE Management</h3>
+                <h3>Georgia Tech</h3>
                 <div className="education-img-wrap mb-5" >
-                  <img className="education-img" src={ppe} alt="Georgia Tech CSE..." />
+                  <img className="education-img" src={gatech} alt="Georgia Tech CSE..." />
                 </div>
-                <p>Management system of personal protective equipments for health care workers with React and AWS</p>
-                <a className="learn-more" href="https://github.com/matthew8541/PPE">
-                  <FontAwesomeIcon icon={faGithub} size="2x"/>
-                </a>
+                <h6 className="education-date">Aug 2020 - Presesnt</h6>
+                <h6 className="major">Computational Science and Engineering</h6>
+                <h6 className="gpa">GPA: 3.67</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-                <div className="circle">
-                  <FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x"/>
-                </div>
-                <h3>PumpedUP</h3>
+                <h3>Georgia Tech</h3>
                 <div className="education-img-wrap mb-5" >
-                  <img className="education-img" src={pumpedup} alt="Springboard..." />
+                  <img className="education-img" src={gatech} alt="Springboard..." />
                 </div>
-                <p>Mobile application designed for partner matching through pairing algorithms and chatting functions with React Native</p>
-                <a className="learn-more" href="https://github.com/pohsienhsu/Workout-Partner-App-PumpedUP">
-                  <FontAwesomeIcon icon={faGithub} size="2x"/>
-                </a>
+                <h6 className="education-date">Aug 2019 - Dec 2020</h6>
+                <h6 className="major">Materials Science and Engineering</h6>
+                <h6 className="gpa">GPA: 3.7</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-                <div className="circle">
-                  <FontAwesomeIcon className="icon" icon={faBiohazard} size="2x"/>
-                </div>
-                <h3>COVID-19 Simulation</h3>
+                <h3>Springboard</h3>
                 <div className="education-img-wrap mb-5" >
-                  <img className="education-img" src={covid} alt="Georgia Tech MSE..." />
+                  <img className="education-img" src={springboard} alt="Georgia Tech MSE..." />
                 </div>
-                <p>Agent-based SEIRS model to simulate COVID-19 pandemic under various conditions.</p>
-                <a className="learn-more" href="https://github.com/pohsienhsu/6730-Covid-Simulation">
-                  <FontAwesomeIcon icon={faGithub} size="2x"/>
-                </a>
+                <h6 className="education-date">Jun 2020 - Mar 2021</h6>
+                <h6 className="major">Software Engineering Bootcamp</h6>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="box">
-                <div className="circle">
-                  <FontAwesomeIcon className="icon" icon={faCalculator} size="2x"/>
-                </div>
-                <h3>FR Prediction</h3>
+                <h3>NCKU</h3>
                 <div className="education-img-wrap mb-5" >
-                  <img className="education-img" src={fr} alt="NCKU CHE..." />
+                  <img className="education-img" src={ncku} alt="NCKU CHE..." />
                 </div>
-                <p>Classification model predicting for FR testing with MCC dataset extracted features.</p>
-                <a className="learn-more" href="https://github.com/pohsienhsu/ML-MCC-FR-analysis">
-                  <FontAwesomeIcon icon={faGithub} size="2x"/>
-                </a>
+                <h6 className="education-date">Sep 2015 - Jun 2019</h6>
+                <h6 className="major">Chemical Engineering</h6>
               </div>
             </div>
           </div>
